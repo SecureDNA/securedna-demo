@@ -1,1 +1,26 @@
-# securedna-synthclien-template
+# SecureDNA Synthclient
+
+## Template instructions
+
+1. Get a Certificate from the SecureDNA team
+1.1 First generate a certificate request
+1.2 Submit the cert request on https://securedna.org/start/
+2. With the certificate you have recevied from SecuerDNA Generate your tokens - https://securedna.org/synth-token/ 
+3. Open this repository in a codespace
+4. Drag your token files into the codespace root directory, they should be named token
+6. Run the following commands in the terminal
+```bash
+run.sh
+```
+7. Open a new terminal window and run the following command to test the synthclient
+```bash
+curl -X POST -H "Content-Type: application/json" -d @test.json https://api.securedna.org/synth/v1/synth
+```
+8. Try a more complex example by running the following command
+```bash
+npx ts-node test.ts
+```
+9. Enjoy!
+
+
+
