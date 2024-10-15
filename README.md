@@ -51,7 +51,7 @@
 8. Try a more complex example by running the following command. This example shows how to use the synthclient to process a fasta file and calculate some statistics
 
     ```bash
-    npx ts-node test.ts
+    npx ts-node adv_test.ts
     ```
 
     The output should look like this:
