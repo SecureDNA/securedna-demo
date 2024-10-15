@@ -10,15 +10,34 @@
 4. Drag your token files into the codespace root directory, they should be named token
 6. Run the following commands in the terminal
 ```bash
-run.sh
+sh run.sh
 ```
+6.1 to check if everything is ok, run the following command
+```bash
+docker ps -a
+docker logs [insert CONTAINER ID from previous command]
+```
+
 7. Open a new terminal window and run the following command to test the synthclient
 ```bash
-curl -X POST -H "Content-Type: application/json" -d @test.json https://api.securedna.org/synth/v1/synth
+sh simple_test.sh
 ```
-8. Try a more complex example by running the following command
+8. Try a more complex example by running the following command. This example shows how to use the synthclient to process a fasta file and calculate some statistics
 ```bash
 npx ts-node test.ts
+```
+
+The output should look like this:
+```
+=== Processing file:  test.fasta
+[
+  {
+    organism: 'Ricin',
+    percentageHit: 11.182795698924732,
+    longestHitregion: 96,
+    longestUniqueHitRegion: 96
+  }
+]
 ```
 9. Enjoy!
 

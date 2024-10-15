@@ -1,0 +1,9 @@
+{
+
+  "compilerOptions": {
+      "module": "commonjs",
+      /* List of folders to include type definitions from. */
+      "lib": ["es2017.object", "es2019.Array", "DOM"]
+  },
+
+}
