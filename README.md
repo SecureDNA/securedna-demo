@@ -6,7 +6,7 @@
 
 1. Get a Certificate from the SecureDNA team
 
-    1.1. First generate a certificate request
+    1.1. First generate a certificate request, https://securedna.org/cert-request/
 
     1.2. Submit the cert request on https://securedna.org/start/
 
