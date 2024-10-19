@@ -20,21 +20,8 @@
 6. Run the following commands in the terminal
 
     ```bash
-    sh run.sh
+    bash run.sh
     ```
-
-    check if everything is ok by running the following command
-
-    ```bash
-    docker ps -a
-    ```
-
-    check that the status said `Up X seconds` or similar otherwise run the following command to see the logs
-
-    ```
-    docker logs [insert CONTAINER ID from previous command]
-    ```
-
 
 ### Run simple test
 
