@@ -15,7 +15,7 @@
 4. Drag your token files (generated in 2)`token.priv`, `token.st` into the codespace root directory (the left tree view)
 5. Create a new file called `token.passphrase` and paste your passphrase into it (password used in 2)
 
-### Start Docker instance
+### Start Docker instance and use web interface
 
 6. Run the following commands in the terminal
 
@@ -24,6 +24,8 @@
     ```
     - Ignore the popup
     - in the terminal, you will see a URL, copy that and paste it into your browser.
+  
+6.1. In the browser, you should now see the web interface which you can play around with.
 
 ### Run simple test
 
@@ -34,6 +36,8 @@
       ```
 
     You should see a JSON output in the terminal. Check the file to see a minimal example on how to use the client.
+
+
 
 ### Advanced
 
