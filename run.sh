@@ -44,7 +44,7 @@ if [[ $container_status == "running" ]]; then
   echo "Successful start"
   echo "Please visit"
   gh codespace ports visibility  80:public  -c  $CODESPACE_NAME
-  echo "https://pages.securedna.org/web-interface/?api=https://${CODESPACE_NAME}.app.github.dev"
+  echo "https://pages.securedna.org/web-interface/?api=https://${CODESPACE_NAME}-80.app.github.dev"
   echo "Enjoy!"
 else
   echo "Failed to start. Showing logs:"
