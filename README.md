@@ -22,6 +22,8 @@
     ```bash
     bash run.sh
     ```
+    - Ignore the popup
+    - in the terminal, you will see a URL, copy that and paste it into your browser.
 
 ### Run simple test
 
