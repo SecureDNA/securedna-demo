@@ -225,6 +225,7 @@ async function screen(name, fasta) {
       }
 
       if (!isUnique) {
+        uniqueOrganism = undefined;
         break;
       }
     }
