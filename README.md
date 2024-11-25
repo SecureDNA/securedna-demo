@@ -2,6 +2,8 @@
 
 ## Template instructions
 
+
+
 ### Getting certificate and generate tokens
 
 1. Get a Certificate from the SecureDNA team
@@ -11,7 +13,7 @@
     1.2. Submit the cert request on https://securedna.org/start/
 
 2. With the certificate you have received from SecuerDNA, generate your tokens here https://securedna.org/synth-token/ 
-3. Open this repository in a codespace (press the green "Use this template" button and click "Open in Codespace"
+3. Login to Github, open this repository in a codespace (press the green "Use this template" button and click "Open in Codespace" -
 4. Drag your token files (generated in 2)`token.priv`, `token.st` into the codespace root directory (the left tree view)
 5. Create a new file called `token.passphrase` and paste your passphrase into it (password used in 2)
 
