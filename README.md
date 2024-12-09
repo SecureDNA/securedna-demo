@@ -1,5 +1,7 @@
 # SecureDNA Synthclient
 
+This SecureDNA Codespaces demo is an interactive, hands-on environment that allows users to experience our screening system directly from their browser. Users can run synthclient to test sample sequences, observe how hazards are identified and reported, and explore integration capabilities with our API, all without needing to install anything locally. This demo provides an authentic experience of how SecureDNA's platform functions in real-world applications, making it ideal for professionals looking to evaluate or integrate our advanced screening technologies.
+
 ## Template instructions
 
 
