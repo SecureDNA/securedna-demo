@@ -28,8 +28,7 @@ This SecureDNA Codespaces demo is an interactive, hands-on environment that allo
     ```
     - Ignore the popup
     - in the terminal, you will see a URL, copy that and paste it into your browser.
-  
-6.1. In the browser, you should now see the web interface which you can play around with.
+    - In the browser, you should now see the web interface which you can play around with.
 
 ### Run simple test
 
